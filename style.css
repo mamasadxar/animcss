@@ -218,11 +218,18 @@
     position: absolute;
     height: 100px;
     width: 100px;
-    background-color: #cf740b;
+    background-color: #ecae27;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 1000;
     margin-left: 100px;
     margin-top: 600px;
+    animation: 15s sun;
+    box-shadow:
+        0 0 50px 30px rgb(253, 200, 54)
+}
+@keyframes sun {
+    0% {right: -150px;}
+    10% {right: -100px; top: 200px;}
 }
 .suninside {
     display: inline-block;
