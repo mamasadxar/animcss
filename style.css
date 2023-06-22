@@ -3,7 +3,34 @@
     height: 100vh;
     width: 100vw;
     position: relative;
+    animation: dgegame 40s infinite;
 } 
+@keyframes dgegame {
+    0% {background-color: #17161b;}
+    5% {background-color: #9ce2e7;}
+    10% {background-color: #9ce2e7;}
+    15% {background-color: #9ce2e7;}
+    20% {background-color: #9ce2e7;}
+    25% {background-color: #9ce2e7;}
+    30% {background-color: #9ce2e7;}
+    35% {background-color: #9ce2e7;}
+    40% {background-color: #9ce2e7;}
+    45% {background-color: #9ce2e7;}
+    49% {background-color: #9ce2e7;}
+    50% {background-color: #17161b;}
+    55% {background-color: #17161b;}
+    60% {background-color: #17161b;}
+    65% {background-color: #17161b;}
+    70% {background-color: #17161b;}
+    75% {background-color: #17161b;}
+    80% {background-color: #17161b;}
+    85% {background-color: #17161b;}
+    90% {background-color: #17161b;}
+    95% {background-color: #17161b;}
+    99% {background-color: #17161b;}
+    100% {background-color: #17161b;}
+
+}
 .ukanamta {
     height: 120vh;
     width: 60vw;
@@ -14,6 +41,32 @@
     margin-top: 20%;
     margin-left: 20%;
     z-index: 3;
+    animation: ukanamta 40s infinite;
+}
+@keyframes ukanamta {
+    0% {background-color: #042c0a;}
+    5% {background-color: #063a0e;}
+    10% {background-color: #063a0e;}
+    15% {background-color: #063a0e;}
+    20% {background-color: #063a0e;}
+    25% {background-color: #063a0e;}
+    30% {background-color: #063a0e;}
+    35% {background-color: #063a0e;}
+    40% {background-color: #063a0e;}
+    45% {background-color: #063a0e;}
+    49% {background-color: #063a0e;}
+    50% {background-color: #042c0a;}
+    55% {background-color: #042c0a;}
+    60% {background-color: #042c0a;}
+    65% {background-color: #042c0a;}
+    70% {background-color: #042c0a;}
+    75% {background-color: #042c0a;}
+    80% {background-color: #042c0a;}
+    85% {background-color: #042c0a;}
+    90% {background-color: #042c0a;}
+    95% {background-color: #042c0a;}
+    99% {background-color: #042c0a;}
+    100% {background-color: #042c0a;}
 }
 .shuamta {
     height: 90vh;
@@ -24,6 +77,32 @@
     display: inline-block;
     margin-top: 27%;
     z-index: 4;
+    animation: shuamta 40s infinite;
+}
+@keyframes shuamta {
+    0% {background-color: #0c3511;}
+    5% {background-color: #154e1e;}
+    10% {background-color: #154e1e;}
+    15% {background-color: #154e1e;}
+    20% {background-color: #154e1e;}
+    25% {background-color: #154e1e;}
+    30% {background-color: #154e1e;}
+    35% {background-color: #154e1e;}
+    40% {background-color: #154e1e;}
+    45% {background-color: #154e1e;}
+    49% {background-color: #154e1e;}
+    50% {background-color: #0c3511;}
+    55% {background-color: #0c3511;}
+    60% {background-color: #0c3511;}
+    65% {background-color: #0c3511;}
+    70% {background-color: #0c3511;}
+    75% {background-color: #0c3511;}
+    80% {background-color: #0c3511;}
+    85% {background-color: #0c3511;}
+    90% {background-color: #0c3511;}
+    95% {background-color: #0c3511;}
+    99% {background-color: #0c3511;}
+    100% {background-color: #0c3511;}
 }
 .winamta {
     height: 80vh;
@@ -35,6 +114,32 @@
     margin-top: 31%;
     margin-left: 57%;
     z-index: 5;
+    animation: winamta 40s infinite;
+}
+@keyframes winamta {
+    0% {background-color: #18421e;}
+    5% {background-color: #296332;}
+    10% {background-color: #296332;}
+    15% {background-color: #296332;}
+    20% {background-color: #296332;}
+    25% {background-color: #296332;}
+    30% {background-color: #296332;}
+    35% {background-color: #296332;}
+    40% {background-color: #296332;}
+    45% {background-color: #296332;}
+    49% {background-color: #296332;}
+    50% {background-color: #18421e;}
+    55% {background-color: #18421e;}
+    60% {background-color: #18421e;}
+    65% {background-color: #18421e;}
+    70% {background-color: #18421e;}
+    75% {background-color: #18421e;}
+    80% {background-color: #18421e;}
+    85% {background-color: #18421e;}
+    90% {background-color: #18421e;}
+    95% {background-color: #18421e;}
+    99% {background-color: #18421e;}
+    100% {background-color: #18421e;}
 }
 .ukanamtaupgrubeli {
     height: 120px;
@@ -220,27 +325,36 @@
     width: 100px;
     background-color: #ecae27;
     border-radius: 50%;
-    z-index: 1000;
-    margin-left: -200px;
+    z-index: 1;
+    margin-left: -500px;
     margin-top: 300px;
-    animation: sun 20s infinite 5s;
+    animation: sun 40s infinite;
     animation-timing-function: linear;
     box-shadow:
-        0 0 50px 30px rgb(253, 200, 54)
+        0 0 100px 70px rgb(253, 200, 54)
 }
 @keyframes sun {
     0% {left: 0px; bottom: -70px;}
-    10% {left: 210px; top: -120px;}
-    20% {left: 420px; top: -150px;}
-    30% {left: 630px; top: -170px;}
-    40% {left: 840px; top: -190px;}
-    50% {left: 1050px; top: -200px;}
-    60% {left: 1260px; top: -190px;}
-    70% {left: 1470px; top: -170px;}
-    80% {left: 1680px; top: -150px;}
-    90% {left: 1890px; top: -120px;}
-    100% {left: 2100px; top: -70px;}
-
+    5% {left: 570px; top: -120px;}
+    10% {left: 780px; top: -150px;}
+    15% {left: 990px; top: -170px;}
+    20% {left: 1200px; top: -190px;}
+    25% {left: 1410px; top: -200px;}
+    30% {left: 1620px; top: -190px;}
+    35% {left: 1830px; top: -170px;}
+    40% {left: 2040px; top: -150px;}
+    45% {left: 2250px; top: -120px;}
+    50% {left: 2570px; top: -70px;}
+    55% {}
+    60% {}
+    65% {}
+    70% {}
+    75% {}
+    80% {}
+    85% {}
+    90% {}
+    95% {}
+    100% {}
 }
 .suninside {
     display: inline-block;
@@ -248,6 +362,56 @@
     height: 80px;
     width: 80px;
     background-color: #e79c0f;
+    border-radius: 50%;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.moon {
+    display: inline-block;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #adb0b1;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: -200px;
+    margin-top: 300px;
+    animation: moon 40s infinite;
+    animation-timing-function: linear;
+    box-shadow:
+        0 0 100px 70px rgb(178, 184, 183)
+}
+@keyframes moon {
+    0% {}
+    5% {}
+    10% {}
+    15% {}
+    20% {}
+    25% {}
+    30% {}
+    35% {}
+    40% {}
+    45% {}
+    50% {left: -150px; bottom: -70px;}
+    55% {left: 210px; top: -120px;}
+    60% {left: 420px; top: -150px;}
+    65% {left: 630px; top: -170px;}
+    70% {left: 840px; top: -190px;}
+    75% {left: 1050px; top: -200px;}
+    80% {left: 1260px; top: -190px;}
+    85% {left: 1470px; top: -170px;}
+    90% {left: 1680px; top: -150px;}
+    95% {left: 1890px; top: -120px;}
+    100% {left: 2200px; top: -70px;}
+}
+.mooninside {
+    display: inline-block;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: #898e8f;
     border-radius: 50%;
     z-index: 2;
     top: 50%;
